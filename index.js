@@ -1,7 +1,7 @@
 class TaxCalculator{
     
     constructor(){
-        let rate = 15;
+        this.rate = 15;
         this.state = 'TX';
         this.exempt = false;
     }
@@ -18,3 +18,4 @@ class TaxCalculator{
 //should hide the rate
 //should hide the calculateExempt method
 //should hide the calculateNonExempt method
+
