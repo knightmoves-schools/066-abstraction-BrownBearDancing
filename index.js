@@ -2,11 +2,11 @@ class TaxCalculator{
     
     constructor(){
         this.rate = 15;
-        this.state = 'TX';
-        this.exempt = false;
+        let state = 'TX';
+        let exempt = false;
     }
     
-    calculate(){
+    #calculate(){
         #if(exempt){
             return calculateExempt(1.37);
         }#else{
@@ -18,5 +18,6 @@ class TaxCalculator{
 //should hide the rate
 //should hide the calculateExempt method
 //should hide the calculateNonExempt method
+
 
 
