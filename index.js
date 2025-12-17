@@ -6,8 +6,8 @@ class TaxCalculator{
         this.exempt = false;
     }
     
-    calculate(){
-        if(this.exempt) => {
+    #calculate(){
+        if(this.exempt) {
             return calculateExempt(1.37);
         }else{
             return calculateNonExempt(5.72);
@@ -18,6 +18,7 @@ class TaxCalculator{
 //should hide the rate
 //should hide the calculateExempt method
 //should hide the calculateNonExempt method
+
 
 
 
