@@ -13,11 +13,13 @@ class TaxCalculator{
             return calculateNonExempt(5.72);
         }
     }
-}
+};
+
 
 //should hide the rate
 //should hide the calculateExempt method
 //should hide the calculateNonExempt method
+
 
 
 
